@@ -1,4 +1,7 @@
 # docker-pdflatex
+
+[![Docker Image CI](https://github.com/AndreaCicca/docker-pdflatex/actions/workflows/docker-image.yml/badge.svg)](https://github.com/AndreaCicca/docker-pdflatex/actions/workflows/docker-image.yml)
+
 A Docker image that provides pdflatex with common latex packages. This image inherits from Debian Bookworm and avoid issues with texlive package (loss of section numbering for example) from Ubuntu.
 
 # Build the image
